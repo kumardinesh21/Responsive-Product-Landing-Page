@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Amazing Product</h1>
+        <p>Revolutionize your experience with our latest tech!</p>
+        <button id="cta-button">Learn More</button>
+        <img src="images/product-image.jpg" alt="Product Image">
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-item">
+            <img src="images/camera-icon.jpeg" alt="Camera Icon">
+            <h3>48MP Camera</h3>
+            <p>Capture stunning high-quality photos with a 48MP sensor.</p>
+        </div>
+        <div class="feature-item">
+            <img src="images/battery-icon.webp" alt="Camera Icon">
+            <h3>Night Mode</h3>
+            <p>Take bright, detailed photos even in low light.</p>
+        </div>
+        <div class="feature-item">
+            <img src="images/speed-ico.jpeg" alt="Camera Icon">
+            <h3>Fast Charging</h3>
+            <p>Charge your phone in minutes with ultra-fast charging.</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-card">
+            <h3>Basic</h3>
+            <p>$9.99/month</p>
+        </div>
+        <div class="pricing-card">
+            <h3>Standard</h3>
+            <p>$19.99/month</p>
+        </div>
+        <div class="pricing-card">
+            <h3>Premium</h3>
+            <p>$29.99/month</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Amazing Product. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top">Top</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
